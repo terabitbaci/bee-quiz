@@ -1,16 +1,65 @@
-    * {
-        box-sizing: border-box;
-    }
+* {
+    box-sizing: border-box;
+}
 
-    body {
-        font-family: 'Roboto', sans-serif;
-    }
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 60px;
+}
 
-    button:hover {
-        cursor: pointer;
-    }
 
-    .container {
-        max-width: 600px;
-        margin: 0 auto;
-    }
+/*
+html {
+    background-color: yellow;
+}
+*/
+
+.text {
+    color: darkorange;
+}
+
+h1 {
+    font-size: 3.5rem;
+    text-shadow: 1px 1px 1px black;
+}
+
+h2 {
+    font-size: 2.8rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+.startButton {
+    padding-top 80px;
+    cursor: grab;
+    background-color: orange;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.startButton:hover {
+    background-color: darkorange;
+}
+
+.start-section {
+    max-width: 800px;
+    margin: 0 auto;
+    /*    display: block;*/
+}
+
+.quiz-section {
+    max-width: 800px;
+    margin: 0 auto;
+    /*    text-align: center;*/
+}
+
+.question-number {
+    padding-top: 1.5rem;
+}

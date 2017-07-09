@@ -2,23 +2,45 @@
 <html lang="en">
 
 <head>
-    <title>Quiz App</title>
+    <title>Bees Quiz</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
     <link rel="stylesheet" href="main.css">
 </head>
 
+
 <body>
 
-    <div class="container">
-        <h1>Test Your Knowledge of Bees</h1>
-        <h2>A third of all fruits and vegetables are pollinated by honey bees. How much do you know about these fascinating, hard-working insects?</h2>
-        <button type="button" class="js-startButton" name="start">get started</button>
-    </div>
+    <section class="start-section">
+        <h1 class=text>Test Your Knowledge of Bees</h1>
+        <p class=text>A third of all fruits and vegetables are pollinated by honey bees. How much do you know about these fascinating, hard-working insects?<br></p>
+        <button class="startButton" id="startQuizButton">get started</button>
+    </section>
 
 
+
+    <section class="quiz-section">
+        <h2 class=text id="question">How many honey bees live and work<br> in a healthy backyard hive?</h1>
+            <div id="choices">
+                <input class="option" type="radio" value="0" name="option">
+                <br>
+                <input class="option" type="radio" value="1" name="option">
+                <br>
+                <input class="option" type="radio" value="2" name="option">
+                <br>
+                <input class="option" type="radio" value="3" name="option">
+                <br>
+            </div>
+            <div class="question-number" id="questionNumberDisplay">Question 1 of 10</div>
+    </section>
+
+
+<section class="result-section">
+    <h2 class="text">Final Score!</h2>
+    <h3 class="text" id="finalScore">10 of 10</h3>
+    <div id="result_msg"></div>
+</section>
 
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
     <script src="app.js"></script>
