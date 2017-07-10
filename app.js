@@ -82,14 +82,24 @@ var totalNumberOfCorrectAnswers = 0;
  * 2) Functions that modify state    *
  *************************************/
 
-// 1 - updates the questions text to the current question
+// 1 - update the question text to the current question (questionsArray.[currentQuestionNumber])
+$('#question').text(questionsArray.[currentQuestionNumber].questionText);
 
 
-// 2 - displays the choices for the current question:
+// 2 - display the choices for the current question:
 // empty the current choices; get the total number of choices for the current question; loop through all the choices and append them to the choices container on their own line and with their own radio button.
+$('#choices').empty();
+
+var totalNumberOfChoices = questionsArray.[currentQuestionNumber].questionChoices.length
+for (var i = 0; i < totalNumberOfChoices; i++) {
+
+    var buildEachChoiceHTML = "<input class='option' type='radio' name='option' value=" + i + ">" + questionsArray.[currentQuestionNumber].questionChoices[i] + "<br>";
+    $('#choices').append(buildEachChoiceHTML);
+}
 
 
 // 3 - displays the number of the current question
+$('#questionNumberDisplay').text("Question " + (currentQuestionNumber + 1) + " of " + totalNumberOfQuestion);
 
 
 
@@ -102,6 +112,7 @@ $(document).ready(function () {})
 
 
 // hide the quiz and result sections on load
+
 
 // when the startQuizButton is clicked, run a function to:
 // hide the start and result sections; show the quiz section; empty the results of the details container; run the questionDisplay function from 2) //1 and //2  above
