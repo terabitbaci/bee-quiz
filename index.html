@@ -12,38 +12,52 @@
 
 <body>
 
+
+    <header class="banner-section">
+        <h1 class="heading">
+            <img class="logo" width="10%" alt="skep drawing" src="images/skep.png"><br>
+            <span>Test Your Bee Knowledge</span></h1>
+    </header>
+
     <section class="start-section">
-        <h1 class=text>Test Your Knowledge of Bees</h1>
-        <p class=text>A third of all fruits and vegetables are pollinated by honey bees. How much do you know about these fascinating, hard-working insects?<br></p>
+        <p class=text>A third of all fruits and vegetables are pollinated by bees. How much do you know about these fascinating,<br> hard-working insects?<br><br></p>
         <button class="startButton" id="startQuizButton">get started</button>
     </section>
 
 
 
+
     <section class="quiz-section">
-        <h2 class=text id="question">How many honey bees live and work<br> in a healthy backyard hive?</h1>
-            <div id="choices">
-                <input class="option" type="radio" value="0" name="option">
-                <br>
-                <input class="option" type="radio" value="1" name="option">
-                <br>
-                <input class="option" type="radio" value="2" name="option">
-                <br>
-                <input class="option" type="radio" value="3" name="option">
-                <br>
-            </div>
-            <div class="question-number" id="questionNumberDisplay">Question 1 of 10</div>
+        <h2 class=text id="question">How many honey bees live and work<br> in a healthy backyard hive?</h2>
+        <div id="choices">
+            <input class="option" type="radio" value="0" name="option">
+            <br>
+            <input class="option" type="radio" value="1" name="option">
+            <br>
+            <input class="option" type="radio" value="2" name="option">
+            <br>
+            <input class="option" type="radio" value="3" name="option">
+            <br>
+        </div>
+        <div class="question-number" id="questionNumberDisplay">Question 1 of 10</div>
     </section>
 
 
-<section class="result-section">
-    <h2 class="text">Final Score!</h2>
-    <h3 class="text" id="finalScore">10 of 10</h3>
-    <div id="result_msg"></div>
-</section>
+
+    <section class="result-section">
+        <h2 class="text">Final Score!</h2>
+        <h3 class="text" id="finalScore">10 of 10</h3>
+        <div id="result_msg"></div>
+        <button class="startButton" id="tryagain">try again?</button>
+    </section>
+
+
 
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
     <script src="app.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 
 </body>
 
