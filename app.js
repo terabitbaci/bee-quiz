@@ -14,7 +14,7 @@ var questionsArray = [
     {
         questionText: "In her entire lifetime, a worker bee does not perform which job in a healthy hive?",
         questionChoices: ["egg layer", "larvae feeder", "undertaker", "comb builder"],
-        questionCorrectChoice: 1,
+        questionCorrectChoice: 0,
         correctDetails: "In her entire lifetime, a worker bee should never lay eggs. If she does, there is something going on that the hive will have to correct; perhaps replace the queen. A honey bee's eggs are not viable."
     },
     // Question 3
@@ -43,28 +43,28 @@ var questionsArray = [
         questionText: "What is the first job the newborn worker bee does?",
         questionChoices: ["eat a meal", "fly out to forage", "clean the cell she just emerged from", "tend to the queen"],
         questionCorrectChoice: 2,
-        correctDetails: "A worker bee has chew her way through a wax cap to emerge from her cell, then clean out her own cell before doing anything else."
+        correctDetails: "A worker bee must chew her way through a wax cap to emerge from her cell, then clean out her own cell before doing anything else."
     },
     // Question 7
     {
         questionText: "How do bees cool themselves when it is too hot outside?",
-        questionChoices: ["by fanning each other with their wings", "by collecting outside the hive and hanging off each other in a beard-like clump", "by dipping into some water", "heat has no effect on bees"],
+        questionChoices: ["by fanning each other with their wings", "by bearding outside the hive", "by dipping into some water", "heat has no effect on bees"],
         questionCorrectChoice: 1,
         correctDetails: "Bees collect outside the hive and hang off each other in a beard-like clump to cool themselves down."
     },
     // Question 8
     {
         questionText: "If you see a zillion bees making a hugh cloud in the air, what is going on?",
-        questionChoices: ["This is a swarm. The hive is too crowded and up to 60% of the bees have left in search of a new home", "This is a swarm. RUN!!! (Just kidding. They are not interested in hurting you.) Call a local beekeeper to come and take the swarm away to a new home.", "This is a swarm. The old queen is leaving with much of the workers and drones, and leaving the hive to the about-to-hatch new queen", "All of the above."],
-        questionCorrectChoice: 3,
-        correctDetails: "It is a swarm. The old queen is taking a major part of the hive to find a location for their new hive. It is like a cell dividing. It is a very healthy thing for the hive, and for the bee population in general. Leave them alone and they will be gone in a day or two. Or call a local beekeeper who will gleefully come and collect them to put into their backyard hive."
+        questionChoices: ["This is a swarm. Run!!", "This is a swarm. Call a local beekeeper.", "This is a swarm. Freeze!!", "This is a swarm. Spray!!"],
+        questionCorrectChoice: 1,
+        correctDetails: "It is a swarm. The old queen is taking a major part of the hive to find a location for their new hive, leaving the hive to the about-to-hatch new queen. It is like a cell dividing. It is a very healthy thing for the hive, and for the bee population in general. Leave them alone and they will be gone in a day or two. Or call a local beekeeper who will gleefully come and collect them to put into their backyard hive."
     },
 // Question 9
     {
         questionText: "If you see a lone honey bee languishing but not dead, what should you do?",
-        questionChoices: ["Kill that thing before it stings you!", "Capture it and try to start an observation hive in your kid's bedroom", "Put a drop of a 1: 1 mixture of water and sugar next to her, and she will be able to fly away within moments after drinking it.", "Feed it some honey. (hint: don't do this! Other bees' honey can carry viruses safe for people but harmful to bees.)"],
+        questionChoices: ["Kill it before it stings you!", "Capture it and try to start a new hive", "Give her water/sugar nurishment", "Feed it some honey"],
         questionCorrectChoice: 2,
-        correctDetails: "Offer the bee a drop of sugar water for nurishment. If she drinks it and is able to fly off, she will continue foraging for her hive until she dies."
+        correctDetails: "Offer the bee a drop of 1:1 sugar water for nurishment. If she drinks it and is able to fly off, she will continue foraging for her hive until she dies. Don't give her honey. Other bees' honey can carry viruses safe for people but harmful to bees, in which case she would carry the deadly virus back to infect her hive."
 },
 // Question 10
     {
