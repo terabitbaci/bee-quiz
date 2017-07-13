@@ -40,8 +40,16 @@ html {
 }
 
 #question .text {
+    margin-top: 6.5rem;
     text-align: center;
 }
+
+
+/*
+.text h3 {
+    margin-top: 1rem;
+}
+*/
 
 .heading {
     margin-top: 1rem;
@@ -64,14 +72,6 @@ html {
     margin-top: .5rem;
     vertical-align: middle;
 }
-
-
-/*
-h2 h3 {
-    font-family: 'Lato', sans-serif;
-    text-shadow: 1.8px 1px 1px #b33e3d;
-}
-*/
 
 h2 {
     font-size: 2.8rem;
@@ -100,6 +100,7 @@ p {
     vertical-align: middle;
 }
 
+
 /* #choices .option are the radio buttons only */
 
 #choices .option {
@@ -111,7 +112,7 @@ p {
 
 .startButton {
     padding-bottom 40px;
-    cursor: grab;
+    cursor: default;
     background-color: orange;
     font-size: 20px;
     border-radius: 10px;
@@ -148,12 +149,40 @@ p {
     padding-left: 60px;
     background-image: url("../images/transparent.jpg");
     /*    background: #FFFF00;*/
-    border-radius: 0.5rem;
+    border-radius: 0.8rem;
     padding: 2rem;
     /*    width: 100rem;*/
     margin-bottom: 1rem;
     margin-left: auto;
     margin-right: auto;
+}
+
+.result-section h2 {
+    margin-top: 10rem;
+}
+
+.result-section h3 {
+    margin-top: -2rem;
+}
+
+.result-section #tryagain {
+    text-align: center;
+}
+
+#result_msg h3 {
+    font-family: 'Lato', sans-serif;
+    color: darkorange;
+    font-size: 2.5rem;
+    text-shadow: 1.8px 1px 1px #b33e3d;
+}
+
+#result_msg h4 {
+    font-family: 'Lato', sans-serif;
+    color: darkorange;
+    font-size: 2rem;
+    text-shadow: 1.8px 1px 1px #b33e3d;
+    margin-top: -2rem;
+    margin-bottom: 5rem;
 }
 
 .question-number {

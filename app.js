@@ -12,7 +12,7 @@ var questionsArray = [
     },
     // Question 2
     {
-        questionText: "In her entire lifetime, a worker bee does not perform which job in a healthy hive?",
+        questionText: "A worker bee never performs which job in a healthy hive?",
         questionChoices: ["egg layer", "larvae feeder", "undertaker", "comb builder"],
         questionCorrectChoice: 0,
         correctDetails: "In her entire lifetime, a worker bee should never lay eggs. If she does, there is something going on that the hive will have to correct; perhaps replace the queen. A honey bee's eggs are not viable."
@@ -26,7 +26,7 @@ var questionsArray = [
     },
     // Question 4
     {
-        questionText: "How many eggs will the queen bee lay in a day?",
+        questionText: "How many eggs will the queen lay in a day?",
         questionChoices: ["up to 100", "up to 500", "up to 1000", "up to 2000"],
         questionCorrectChoice: 3,
         correctDetails: "The queen bee will lay up to 2000 eggs in a day, with great precision."
@@ -36,14 +36,14 @@ var questionsArray = [
         questionText: "How does a worker bee carry pollen from the flower back to her hive?",
         questionChoices: ["in pollen baskets on her legs", "in her stomach", "in her mouth", "in her arms"],
         questionCorrectChoice: 0,
-        correctDetails: "A worker bee carries pollen in pollen baskets on her legs. It is as if cargo pants were invented by insects."
+        correctDetails: "A worker bee carries pollen in pollen baskets on her legs. It is as if cargo pants were originally invented by insects!"
     },
     // Question 6
     {
         questionText: "What is the first job the newborn worker bee does?",
         questionChoices: ["eat a meal", "fly out to forage", "clean the cell she just emerged from", "tend to the queen"],
         questionCorrectChoice: 2,
-        correctDetails: "A worker bee must chew her way through a wax cap to emerge from her cell, then clean out her own cell before doing anything else."
+        correctDetails: "After the worker bee chews her way through a wax cap and emerges from her cell, she must clean out her own cell so it can be used to rear a new bee, or be filled with pollen or nectar for stores."
     },
     // Question 7
     {
@@ -57,11 +57,11 @@ var questionsArray = [
         questionText: "If you see a zillion bees making a hugh cloud in the air, what is going on?",
         questionChoices: ["This is a swarm. Run!!", "This is a swarm. Call a local beekeeper.", "This is a swarm. Freeze!!", "This is a swarm. Spray!!"],
         questionCorrectChoice: 1,
-        correctDetails: "It is a swarm. The old queen is taking a major part of the hive to find a location for their new hive, leaving the hive to the about-to-hatch new queen. It is like a cell dividing. It is a very healthy thing for the hive, and for the bee population in general. Leave them alone and they will be gone in a day or two. Or call a local beekeeper who will gleefully come and collect them to put into their backyard hive."
+        correctDetails: "It is a swarm. The old queen is taking a major part of the hive with her to find a location for their new hive, leaving the old hive to the about-to-hatch new queen. It is like a cell dividing; it is a sign that the hive is healthy, and it is good for the bee population in general. They will soon settle onto a nearby bush. Leave them alone and they will be gone in a day or two. Or call a local beekeeper who will gleefully come and collect them—queen and all—to put into their own backyard hive."
     },
 // Question 9
     {
-        questionText: "If you see a lone honey bee languishing but not dead, what should you do?",
+        questionText: "If you see a lone honey bee languishing, what should you do?",
         questionChoices: ["Kill it before it stings you!", "Capture it and try to start a new hive", "Give her water/sugar nurishment", "Feed it some honey"],
         questionCorrectChoice: 2,
         correctDetails: "Offer the bee a drop of 1:1 sugar water for nurishment. If she drinks it and is able to fly off, she will continue foraging for her hive until she dies. Don't give her honey. Other bees' honey can carry viruses safe for people but harmful to bees, in which case she would carry the deadly virus back to infect her hive."
@@ -71,7 +71,7 @@ var questionsArray = [
         questionText: "Which of the following do bees NOT like?",
         questionChoices: ["bears", "horses", "fire", "all of the above"],
         questionCorrectChoice: 3,
-        correctDetails: "Bees understandably fear fire because it will destroy the hive. The also are very defensive with bears and horses because, for thousands of years, bears have robbed and destroyed hives, and horses have disturbed them with all their racing around."
+        correctDetails: "Bees understandably fear fire because it will destroy the hive. They are also very defensive with bears and horses because, for thousands of years, bears have robbed and destroyed hives, and horses have disturbed them with all their racing around."
 }
 ]
 
@@ -172,8 +172,8 @@ $(document).ready(function () {
 
 
         // append the questionText and correctDetails to the result_msg that displays at the end of the quiz
-        $('#result_msg').append("<h3>Q: " + questionsArray[currentQuestionNumber].questionText + "</h3>");
-        $('#result_msg').append("<h4>A: " + questionsArray[currentQuestionNumber].correctDetails + "</h4>");
+        $('#result_msg').append("<h3>" + questionsArray[currentQuestionNumber].questionText + "</h3>");
+        $('#result_msg').append("<h4>Answer: " + questionsArray[currentQuestionNumber].correctDetails + "</h4>");
 
 
 
