@@ -47,14 +47,14 @@ var questionsArray = [
     },
     // Question 7
     {
-        questionText: "How do bees cool themselves when it is too hot outside?",
+        questionText: "How do bees cool themselves if the day becomes too hot?",
         questionChoices: ["by fanning each other with their wings", "by bearding outside the hive", "by dipping into some water", "heat has no effect on bees"],
         questionCorrectChoice: 1,
         correctDetails: "Bees collect outside the hive and hang off each other in a beard-like clump to cool themselves down."
     },
     // Question 8
     {
-        questionText: "If you see a zillion bees making a hugh cloud in the air, what is going on?",
+        questionText: "If you see a zillion bees making a huge cloud in the air, what is going on?",
         questionChoices: ["This is a swarm. Run!!", "This is a swarm. Call a local beekeeper.", "This is a swarm. Freeze!!", "This is a swarm. Spray!!"],
         questionCorrectChoice: 1,
         correctDetails: "It is a swarm. The old queen is taking a major part of the hive with her to find a location for their new hive, leaving the old hive to the about-to-hatch new queen. It is like a cell dividing; it is a sign that the hive is healthy, and it is good for the bee population in general. They will soon settle onto a nearby bush. Leave them alone and they will be gone in a day or two. Or call a local beekeeper who will gleefully come and collect them—queen and all—to put into their own backyard hive."
@@ -64,7 +64,7 @@ var questionsArray = [
         questionText: "If you see a lone honey bee languishing, what should you do?",
         questionChoices: ["Kill it before it stings you!", "Capture it and try to start a new hive", "Give her water/sugar nurishment", "Feed it some honey"],
         questionCorrectChoice: 2,
-        correctDetails: "Offer the bee a drop of 1:1 sugar water for nurishment. If she drinks it and is able to fly off, she will continue foraging for her hive until she dies. Don't give her honey. Other bees' honey can carry viruses safe for people but harmful to bees, in which case she would carry the deadly virus back to infect her hive."
+        correctDetails: "Offer the bee a drop of 1:1 sugar water for nourishment. If she drinks it and is able to fly off, she will continue foraging for her hive for the rest of her days. <i>Don't give her honey!</i> Other bees' honey can carry viruses safe for people but harmful to bees, in which case she would unknowingly carry the deadly virus back to infect her hive."
 },
 // Question 10
     {
