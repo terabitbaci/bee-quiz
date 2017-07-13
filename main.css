@@ -16,13 +16,6 @@ body {
     padding-left: 65px;
 }
 
-
-/*
-html {
-    background-color: yellow;
-}
-*/
-
 html {
     background: rgba(0, 0, 0, 0) url("../images/bee-on-yellow.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -43,13 +36,6 @@ html {
     margin-top: 6.5rem;
     text-align: center;
 }
-
-
-/*
-.text h3 {
-    margin-top: 1rem;
-}
-*/
 
 .heading {
     margin-top: 1rem;
@@ -132,7 +118,6 @@ p {
 .quiz-section {
     max-width: 800px;
     margin: 0 auto;
-    /*    text-align: center;*/
     text-align: left;
     padding-left: 30px;
     padding-right: 30px;
@@ -144,14 +129,11 @@ p {
 .result-section {
     max-width: 60rem;
     margin: 0 auto;
-    /*    text-align: center;*/
     text-align: left;
     padding-left: 60px;
     background-image: url("../images/transparent.jpg");
-    /*    background: #FFFF00;*/
     border-radius: 0.8rem;
     padding: 2rem;
-    /*    width: 100rem;*/
     margin-bottom: 1rem;
     margin-left: auto;
     margin-right: auto;
@@ -165,9 +147,11 @@ p {
     margin-top: -2rem;
 }
 
+/*
 .result-section #tryagain {
     text-align: center;
 }
+*/
 
 #result_msg h3 {
     font-family: 'Lato', sans-serif;
@@ -186,17 +170,8 @@ p {
 }
 
 .question-number {
-    /*
-    position: fixed;
-    padding-left: 70px;
-*/
     padding-bottom: 2rem;
     text-align: center;
-    /*
-    margin-left: auto;
-    margin-right: auto;
-*/
-    /*    bottom: 6rem;*/
     padding-top: 1.5rem;
     color: darkorange;
     text-shadow: 1.8px 1px 1px #b33e3d;
