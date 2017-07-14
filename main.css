@@ -17,7 +17,7 @@ body {
 }
 
 html {
-    background: rgba(0, 0, 0, 0) url("../images/bee-on-yellow.jpg") no-repeat center center fixed;
+    background: rgba(0, 0, 0, 0) url("images/bee-on-yellow.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -122,7 +122,7 @@ p {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 4.5rem;
-    background-image: url("../images/transparent.jpg");
+    background-image: url("images/transparent.jpg");
     border-radius: 0.8rem;
 }
 
@@ -131,7 +131,7 @@ p {
     margin: 0 auto;
     text-align: left;
     padding-left: 60px;
-    background-image: url("../images/transparent.jpg");
+    background-image: url("images/transparent.jpg");
     border-radius: 0.8rem;
     padding: 2rem;
     margin-bottom: 1rem;
